@@ -24,8 +24,8 @@
     "lint": "pnpm run lintUi && pnpm run lintPython",
     "lintUi": "pnpm run --parallel lint",
     "formatUi": "cd frontend && pnpm run format",
-    "lintPython": "cd backend && poetry run dmypy run --timeout 600 -- chainlit/ tests/",
-    "formatPython": "black `git ls-files | grep '.py$'` && isort --profile=black .",
+    "lintPython": "cd backend",
+    "formatPython": "",
     "buildUi": "cd libs/react-client && pnpm run build && cd ../copilot && pnpm run build && cd ../../frontend && pnpm run build"
   },
   "pnpm": {

@@ -42,7 +42,7 @@ declare global {
       light?: ThemOverride;
       dark?: ThemOverride;
     };
-    transports?: string[]
+    transports?: string[];
   }
 }
 

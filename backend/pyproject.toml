@@ -88,6 +88,7 @@ moto = "^5.0.14"
 
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.8.0"
+mypy = "^1.16.0"
 
 [tool.poetry.group.mypy]
 optional = true
@@ -119,6 +120,7 @@ module = [
     "azure.storage.filedatalake",
 ]
 ignore_missing_imports = true
+
 
 
 
